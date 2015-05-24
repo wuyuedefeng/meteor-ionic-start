@@ -4,23 +4,29 @@ Meteor.startup(function () {
         startUpRouteName: 'trending'
     };
 
-    Router.route('/', {
-        where: 'client',
-        name: 'senGuidePage'
+    Router.route('/', function(){
+        var guidePageIdentify = localStorage.getItem("senGuidePageIdentify");
+        if(guidePageIdentify){
+            this.redirect(SenGuidePageGlobalConfigs.startUpRouteName);
+        }else{
+            this.render('senGuidePage');
+        }
     });
 
     //onBeforeAction
-    Router.onBeforeAction(function () {
-        var temName = Router.current() && Router.current().route.getName();
-        if(temName === 'senGuidePage'){
-            var guidePageIdentify = localStorage.getItem("senGuidePageIdentify");
-            if(guidePageIdentify){
-                this.redirect(SenGuidePageGlobalConfigs.startUpRouteName);
+    var guidePageIdentify = localStorage.getItem("senGuidePageIdentify");
+    if(!guidePageIdentify){
+        Router.onBeforeAction(function () {
+            var temName = Router.current() && Router.current().route.getName();
+            if(temName === 'senGuidePage'){
+                var guidePageIdentify = localStorage.getItem("senGuidePageIdentify");
+                if(guidePageIdentify){
+                    this.redirect(SenGuidePageGlobalConfigs.startUpRouteName);
+                }
             }
-        }
-        this.next();
-    });
-
+            this.next();
+        });
+    }
 });
 
 

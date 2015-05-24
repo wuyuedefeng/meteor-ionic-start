@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10deee0c-be25-44e2-becd-65a984623843" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/guide-page/guide-page1-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/guide-page/guide-page2-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/guide-page/guide-page3-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/guide-page/guide-page4-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/guide-page/guide-page5-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/senGuidePage/guidePageRouter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/meteor-ionic-start.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/senGuidePage/senGuidePage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/senGuidePage/senGuidePage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/both/routes.js" afterPath="$PROJECT_DIR$/both/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/senGuidePage/guidePageRouter.js" afterPath="$PROJECT_DIR$/client/components/senGuidePage/guidePageRouter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="meteor-ionic-start.iws" />
@@ -58,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="senGuidePage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="senGuidePage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/components/senGuidePage/senGuidePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34005037" vertical-offset="0" max-vertical-offset="397">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+              <caret line="10" column="59" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -78,11 +67,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guidePageRouter.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="guidePageRouter.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/components/senGuidePage/guidePageRouter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.81108314" vertical-offset="113" max-vertical-offset="585">
+              <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/both/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,16 +92,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-13.8" vertical-offset="0" max-vertical-offset="435">
               <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trending.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/trending/trending.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -171,8 +160,8 @@
         <option value="$PROJECT_DIR$/.meteor/packages" />
         <option value="$PROJECT_DIR$/components/senGuidePage/guidePageRouter.js" />
         <option value="$PROJECT_DIR$/components/senGuidePage/senGuidePage.js" />
-        <option value="$PROJECT_DIR$/client/components/senGuidePage/guidePageRouter.js" />
         <option value="$PROJECT_DIR$/client/components/senGuidePage/senGuidePage.js" />
+        <option value="$PROJECT_DIR$/client/components/senGuidePage/guidePageRouter.js" />
       </list>
     </option>
   </component>
@@ -287,6 +276,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="both" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meteor-ionic-start" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meteor-ionic-start" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value=".meteor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -368,10 +371,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="109" y="35" width="1280" height="724" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32753164" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32753164" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -656,14 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/both/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="553">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/layouts/appLayout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="553">
@@ -776,18 +771,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/senGuidePage/guidePageRouter.js">
+    <entry file="file://$PROJECT_DIR$/client/components/senGuidePage/senGuidePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/senGuidePage/senGuidePage.js">
+    <entry file="file://$PROJECT_DIR$/both/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34005037" vertical-offset="0" max-vertical-offset="397">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/senGuidePage/guidePageRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81108314" vertical-offset="113" max-vertical-offset="585">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
           <folding />
         </state>
       </provider>
