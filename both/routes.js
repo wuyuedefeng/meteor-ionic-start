@@ -1,4 +1,4 @@
-Router.route('/', {
+Router.route('/trending', {
   name: 'trending'
 });
 
