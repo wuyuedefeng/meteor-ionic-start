@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/meteor-ionic-start.iml" filepath="$PROJECT_DIR$/.idea/meteor-ionic-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/meteor-ionic-login.iml" filepath="$PROJECT_DIR$/.idea/meteor-ionic-login.iml" />
     </modules>
   </component>
 </project>

@@ -1,4 +1,4 @@
-Router.route('/trending', {
+Router.route('trending', {
   name: 'trending'
 });
 

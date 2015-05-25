@@ -1,0 +1,29 @@
+<template name="register" xmlns="http://www.w3.org/1999/html">
+    {{> _navBarHead title='注册' back="登录"}}
+
+    {{#ionView}}
+        {{#ionContent}}
+
+            <form>
+                <div class="list list-inset">
+                    <label class="item item-input">
+                        <input type="number" name="phone"  placeholder="手机号">
+                    </label>
+                    <label class="item item-input">
+                        <input type="password" name="password" placeholder="密码">
+                    </label>
+                    <label class="item item-input">
+                        <input type="password" name="password_again" placeholder="确认密码">
+                    </label>
+                </div>
+
+                <div class="padding form-actions">
+                    <input type="submit" value="注册" class="button button-block button-positive" />
+                </div>
+
+            </form>
+
+        {{/ionContent}}
+    {{/ionView}}
+
+</template>

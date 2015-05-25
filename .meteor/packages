@@ -22,3 +22,5 @@ meteoric:ionicons-sass
 meteoric:ionic
 meteoric:autoform-ionic
 reactive-var
+fastclick
+okland:accounts-phone

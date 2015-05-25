@@ -1,7 +1,7 @@
 Meteor.startup(function () {
     //customConfig
     SenGuidePageGlobalConfigs = {
-        startUpRouteName: 'trending'
+        startUpRouteName: 'login'
     };
 
     Router.route('/', function(){

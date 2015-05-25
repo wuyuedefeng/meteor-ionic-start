@@ -1,0 +1,13 @@
+<template name="_navBarHead">
+
+    {{#if back}}
+        {{#contentFor region="headerButtonLeft" data=back}}
+            {{>ionNavBackButton text = this }}
+        {{/contentFor}}
+    {{/if}}
+
+    {{#contentFor region="headerTitle" data=title}}
+        <h1 class="title">{{this}}</h1>
+    {{/contentFor}}
+
+</template>
